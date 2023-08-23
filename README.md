@@ -30,12 +30,14 @@ This project is an interactive game called Word Finder that challenges players t
   
 ## Installation and Running
 
-    1) Copy the source code of this project to a local directory.
+    1) Install Python 3.x on your system.
 
-    2) If you have Python installed, open a terminal and navigate to the project directory.
+    2) Clone this repository.
 
-    3) In the terminal, use the command to start the game
+    3) Navigate to the repository's directory using the terminal.
 
+    4) Run the following command to start the game:
+    
 ```bash 
 python word_finder.py
 ```
