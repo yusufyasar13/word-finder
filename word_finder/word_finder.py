@@ -14,7 +14,7 @@ class App(tk.Tk):
 
         # main properties of the app
         self.title('Word Finder')
-        self.iconbitmap('./word_finder/icons/dict.ico')
+        self.iconbitmap('./icons/dict.ico')
         self.iconbitmap()
         self.size(350,300)
         self.main_screen()
@@ -40,7 +40,7 @@ class App(tk.Tk):
         self.special_padd2 = {'padx': 5, 'pady': 5}
 
         # image used in the start button
-        self.str_image = tk.PhotoImage(file='./word_finder/images/start.png')
+        self.str_image = tk.PhotoImage(file='./images/start.png')
 
         # features of main page contents 
         self.main_frame = tk.Frame(self,bg="Lavender")
@@ -120,7 +120,7 @@ class App(tk.Tk):
         self.guess_text.pack(fill=tk.X,expand=True,side=tk.LEFT,padx=10)
 
         # features of the guess button
-        self.guess_image = tk.PhotoImage(file='./mystery_number/images/guess.png')
+        self.guess_image = tk.PhotoImage(file='./images/guess.png')
         self.guess_btn = tk.Button(self.topleftcenter_frame,image=self.guess_image,bg="SteelBlue",activebackground="SteelBlue",bd=0,cursor="hand2",command=self.guess)
         self.guess_btn.pack(expand=True,side=tk.LEFT)
 
