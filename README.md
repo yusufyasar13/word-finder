@@ -30,6 +30,8 @@ This project is an interactive game called Word Finder that challenges players t
   
 ## Installation and Running
 
+    ********** First Usace of The Project **********
+    
     1) Install Python 3.x on your system.
 
     2) Clone this repository.
@@ -42,6 +44,21 @@ This project is an interactive game called Word Finder that challenges players t
 python word_finder.py
 ```
     
+    ********** Second Usace of The Project **********
+
+    1) Clone or download this code repository to your computer and unzip the downloaded file.
+
+    2) The application is not require Python 3.x to be installed.
+
+    3) Click twice the exe file or open your terminal or command prompt and navigate to the directory where the code repository is located.
+
+    4) Run the application using the following command:
+
+```bash 
+  word_finder.exe
+
+```
+
 ## How to Play
 
     1) When the game starts, you'll be greeted with a welcome message on the main screen.
